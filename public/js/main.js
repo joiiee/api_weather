@@ -1,6 +1,6 @@
 
 const apiData = {
-    url: "http://api.openweathermap.org/data/2.5/",
+    url: "https://api.openweathermap.org/data/2.5/",
     type: "weather",
     city: "Quezon City",
     units: "metric",
@@ -17,7 +17,7 @@ async function showWeather() {
     
     const addHtml = data => {
         const desc = data.weather[0].description;
-        const urlImg = 'http://openweathermap.org/img/wn/';
+        const urlImg = 'https://openweathermap.org/img/wn/';
         const icon = `${urlImg}${data.weather[0].icon}@2x.png`;
     
         const html = `
