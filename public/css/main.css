@@ -1,0 +1,53 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.weather-wrapper {
+  background: lightblue;
+  padding: 4em;
+  border-radius: 0.5em;
+}
+
+.weather-wrapper .cityCountry {
+  font-weight: bold;
+}
+
+.weather-wrapper .temp {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  font-size: 0.68em;
+}
+
+footer .dev {
+  padding: 0.6em;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+}
+/*# sourceMappingURL=main.css.map */
