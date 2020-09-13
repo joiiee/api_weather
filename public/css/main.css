@@ -32,12 +32,21 @@ main {
   border-radius: 0.5em;
 }
 
+.weather-wrapper p {
+  line-height: 1.6em;
+}
+
 .weather-wrapper .cityCountry {
   font-weight: bold;
 }
 
 .weather-wrapper .temp {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weather-wrapper .feels-temp {
+  font-size: 0.9em;
+  font-style: italic;
 }
 
 footer {

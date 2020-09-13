@@ -22,12 +22,21 @@ main {
     padding: 4em;
     border-radius: 0.5em;
 
+    p {
+        line-height: 1.6em;
+    }
+
     .cityCountry {
         font-weight: bold;
     }
 
     .temp {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .feels-temp {
+        font-size: 0.9em;
+        font-style: italic;
     }
 }
 

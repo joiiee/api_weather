@@ -25,6 +25,7 @@ async function showWeather() {
                 <img alt="Weather Icon" class="icon" src="${icon}">
                 <p class="weather">${desc[0].toUpperCase() + desc.substring(1)}</p>
                 <p class="temp">${data.main.temp}&#8451;</p>
+                <p class="feels-temp">Feels like ${data.main.feels_like}&#8451;</p>
             `;    
         
         weatherWrapper.innerHTML = html;
