@@ -28,8 +28,8 @@ main {
 
 .weather-wrapper {
   background: lightblue;
-  padding: 4em;
-  border-radius: 0.5em;
+  padding: 2em 4em;
+  border-radius: 1.5em;
 }
 
 .weather-wrapper p {
