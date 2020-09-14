@@ -38,6 +38,7 @@ main {
 
 .weather-wrapper .cityCountry {
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 .weather-wrapper .temp {
